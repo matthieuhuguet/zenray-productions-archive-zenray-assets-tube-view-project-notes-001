@@ -1,0 +1,23 @@
+{
+ "schemaVersion": 1,
+ "projectId": "zenray-assets-tube-view",
+ "scannedAt": "2026-10-12T12:27:29.130Z",
+ "conversations": [
+  {
+   "projectId": "zenray-assets-tube-view",
+   "lines": 31,
+   "work": 5,
+   "prompts": 0,
+   "first": "2026-10-12T11:44:13.845Z",
+   "last": "2026-10-12T12:07:29.313Z",
+   "strength": "strong",
+   "conversationId": "claude:d71651de-2d57-45d0-b20d-830dd146d2ac",
+   "provider": "claude",
+   "sessionId": "d71651de-2d57-45d0-b20d-830dd146d2ac",
+   "title": "ZenRay Assets UI rework",
+   "updatedAt": "2026-10-12T12:11:20.483Z",
+   "bytes": 20996,
+   "boundProject": "zenray-assets-tube-view"
+  }
+ ]
+}

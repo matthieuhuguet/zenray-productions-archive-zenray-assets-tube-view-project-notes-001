@@ -1,0 +1,7 @@
+# zenray-assets-tube-view : rules, append only (12 October 2026)
+
+Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (12 October 2026)
+
+- La vue Tube de ZenRay Assets est en Inter seulement, jamais de serif (fatigant et peu addictif dans une interface utilisée toute la journée). Les titres passent en Inter Bold, réglés par le jeton --tube-title-weight ; les nombres et le reste restent en Inter Regular. (12 October 2026) <!-- rule:7123d50bf6b2 -->
+- Les emplacements Cloud, TMP, Memory, Houdini, Unreal s'affichent par défaut avec des noms simples (Archive, Brouillons, Notes, Scènes Houdini, Jeu) ; une bascule Simples / Techniques les remet en noms techniques, partout, y compris dans la feuille de téléchargement. (12 October 2026) <!-- rule:8727c314e6a5 -->
+- La vue Tube est la vue par défaut de ZenRay Assets ; l'ancienne vue reste accessible par le bouton Classique / Tube. Chaque proposition de design se livre à Matthieu en maquettes paramétrables à trois propositions avant d'être intégrée au vrai code. (12 October 2026) <!-- rule:27f99b1f05f0 -->
