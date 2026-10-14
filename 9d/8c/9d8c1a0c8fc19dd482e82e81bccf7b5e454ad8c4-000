@@ -1561,3 +1561,666 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 16:52:23 +0200)
 
 > Le script tourne encore en arrière-plan ; j'attends le résultat de l'inventaire puis de l'archive. (12 October 2026, 16:52:23 +0200)
+
+## 12 October 2026, 16:58:15 +0200 : Iteration
+
+<!-- feedback-event:6e57b48601db3925c8b894a6ce9b6fb0a32e0247c14b201086cecc0b9b68813b (12 October 2026, 16:58:15 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 16:58:15 +0200)
+- Source: checkpoint:claude:d71651de-2d57-45d0-b20d-830dd146d2ac. (12 October 2026, 16:58:15 +0200)
+
+> Tube view integrated as the default ZenRay Assets view (Classic kept as toggle), pushed to origin/main (ba9a6257, 13395ecd). Inter only, titles Inter Bold, plain/technical source names toggle, ring+bar storage, Finder views, ZIP sheet. Verified: 47 assets tests, 137 test files green, real data on Ceramic Tiles (4419 files, 51.96 GB, 4 sources). Not deployed to Cloudflare. Next: deploy on Matthieu go, move film uploads panel to Create, performance pass (catalogue load takes 20 s+). (12 October 2026, 16:58:15 +0200)
+
+## 12 October 2026, 16:58:42 +0200 : Iteration
+
+<!-- feedback-event:145d4b4ce110aa0e4483fbd882cfa73fbaae93bfd7143c136b21bd275b6693a5 (12 October 2026, 16:58:42 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 16:58:42 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 16:58:42 +0200)
+
+> La vue Tube est maintenant la vue par défaut de ZenRay Assets, avec toutes tes validations, et le code est poussé sur `origin/main`. Rien n'est déployé en ligne : il faut ton go pour ça. (12 October 2026, 16:58:42 +0200)
+>
+> ## Ce que tu vois sur http://localhost:3000/?view=assets (12 October 2026, 16:58:42 +0200)
+>
+> - **Police :** (12 October 2026, 16:58:42 +0200)
+>   - La vue est en Inter seulement, sans aucun serif. (12 October 2026, 16:58:42 +0200)
+>   - Les titres sont en Inter Bold, réglés par un seul jeton, `--tube-title-weight`. (12 October 2026, 16:58:42 +0200)
+>   - Les nombres et le reste restent en Inter Regular. (12 October 2026, 16:58:42 +0200)
+> - **Espace utilisé, en haut :** l'anneau à gauche avec le total et son détail au survol, puis la barre colorée avec sa légende. Un clic sur un segment filtre les fichiers. (12 October 2026, 16:58:42 +0200)
+> - **Barre latérale « Emplacements » :** (12 October 2026, 16:58:42 +0200)
+>   - Elle propose Tout, Brouillons, Notes, Scènes Houdini, Jeu et Archive, avec les nombres. (12 October 2026, 16:58:42 +0200)
+>   - Une source vide est grisée. (12 October 2026, 16:58:42 +0200)
+>   - Un sélecteur **Simples / Techniques** change tous les noms : barre latérale, légende et feuille de téléchargement. Les noms simples sont le défaut. (12 October 2026, 16:58:42 +0200)
+> - **Vues façon Finder :** Icônes, Liste, Colonnes, Galerie. Le choix est mémorisé. (12 October 2026, 16:58:42 +0200)
+> - **Télécharger :** (12 October 2026, 16:58:42 +0200)
+>   - Une feuille affiche d'abord la carte du ZIP, avec le dossier `tmp-<id du projet>`, puis l'arbre dépliable. (12 October 2026, 16:58:42 +0200)
+>   - Le ZIP téléchargé porte réellement ce nom. (12 October 2026, 16:58:42 +0200)
+> - **Bouton Classique / Tube** : l'ancienne vue revient en un clic, avec ses filtres, ses vues et son stockage. (12 October 2026, 16:58:42 +0200)
+>
+> ## Vérifié sur tes vraies données (12 October 2026, 16:58:42 +0200)
+>
+> Sur Ceramic Tiles (4 419 fichiers, 51,96 Go) j'ai vu les quatre sources avec leurs vraies tailles : Brouillons 580,8 Mo, Notes 113 Ko, Scènes Houdini 51,24 Go, Jeu 146,6 Mo. Les quatre vues, le filtre par source, la bascule des noms, la feuille de téléchargement et le retour au Classique fonctionnent. (12 October 2026, 16:58:42 +0200)
+>
+> Un point à connaître : les projets de l'ancien registre, comme Roof Tiles, n'indiquent ni la source ni la taille de chaque fichier. Ils apparaissent donc entièrement en « Archive », avec un total repris des tailles par source. Le Classique a la même limite. (12 October 2026, 16:58:42 +0200)
+>
+> ## Ce qui est enregistré (12 October 2026, 16:58:42 +0200)
+>
+> - **Git :** les commits `ba9a6257` (la vue) et `13395ecd` (le contrat du skill) sont sur `origin/main`. (12 October 2026, 16:58:42 +0200)
+> - **Projet Assets `zenray-assets-tube-view` :** (12 October 2026, 16:58:42 +0200)
+>   - ses trois règles sont écrites dans son `Rules.md` : Inter seulement, noms simples avec bascule, Tube par défaut ; (12 October 2026, 16:58:42 +0200)
+>   - les trois maquettes sont rangées dans son atelier ; (12 October 2026, 16:58:42 +0200)
+>   - le checkpoint est écrit ; (12 October 2026, 16:58:42 +0200)
+>   - le skill `zenray-assets` est mis à jour. (12 October 2026, 16:58:42 +0200)
+> - **Sauvegarde cloud :** `backupConfirmed` est encore faux. Un job d'archive était en file à ma dernière lecture ; seule sa fin prouvera la sauvegarde. (12 October 2026, 16:58:42 +0200)
+>
+> ## Points à trancher ou à savoir (12 October 2026, 16:58:42 +0200)
+>
+> 1. **Le dossier de travail du projet a été archivé trop large :** mon dossier de travail contenait une copie du dépôt (4 409 fichiers). L'archive automatique en a envoyé une partie (environ 810 Mo côté cloud). Je l'ai retirée du dossier, mais je n'ai rien supprimé dans le cloud sans ton accord. Dis-moi si tu veux que je nettoie. (12 October 2026, 16:58:42 +0200)
+> 2. **Ton dépôt principal est désynchronisé :** (12 October 2026, 16:58:42 +0200)
+>    - sa copie locale de `main` a 2 commits en avance et 43 en retard sur `origin`. (12 October 2026, 16:58:42 +0200)
+>    - Il garde aussi d'anciennes versions non commitées de mes fichiers. Je n'y ai pas touché. (12 October 2026, 16:58:42 +0200)
+>    - Le build servi sur localhost:3000 vient bien du code poussé. (12 October 2026, 16:58:42 +0200)
+> 3. **Le démarrage du projet a demandé une longue attente :** le pont Assets traîne 20 à 30 secondes dès qu'un gros projet est chargé. Ça confirme que la passe performance est bien la suite. (12 October 2026, 16:58:42 +0200)
+> 4. **Retirés par rapport à la maquette précédente :** (12 October 2026, 16:58:42 +0200)
+>    - Les filtres par type (Images, Vidéos…) ne sont plus là, comme sur ta maquette validée. (12 October 2026, 16:58:42 +0200)
+>    - Le panneau d'uploads de films est masqué en Tube. Il reste à le déplacer dans Create. (12 October 2026, 16:58:42 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 October 2026, 16:58:42 +0200)
+> |---|---|---| (12 October 2026, 16:58:42 +0200)
+> | Ton assemblage dans la vraie vue, par défaut | Oui | La vue s'ouvre en Tube et fonctionne sur 4 419 fichiers réels | (12 October 2026, 16:58:42 +0200)
+> | Garder l'ancienne vue en bascule | Oui | Le Classique revient avec sa colonne et son tableau, testé dans les deux sens | (12 October 2026, 16:58:42 +0200)
+> | Inter seulement, titres en Inter Bold | Oui | Titre mesuré à Inter 700 dans l'app, et un test garde la règle | (12 October 2026, 16:58:42 +0200)
+> | Noms simples avec bascule | Oui | Les noms passent de Brouillons à TMP et inversement, partout | (12 October 2026, 16:58:42 +0200)
+> | Code propre jusqu'au bout | Oui | 47 tests Assets verts, 1 479 tests au total, compilation réussie | (12 October 2026, 16:58:42 +0200)
+> | Enregistrer le projet et le pousser | En partie | Code poussé sur git. Projet enregistré, archive cloud en file mais non confirmée | (12 October 2026, 16:58:42 +0200)
+> | Déployer en ligne | Pas fait | Attend ton go | (12 October 2026, 16:58:42 +0200)
+> | Performance à 0,1 s | Pas encore | C'est la deuxième partie | (12 October 2026, 16:58:42 +0200)
+>
+> Reformulation plus courte de ta demande : « Intègre le Tube en vue par défaut avec toutes les correspondances, Inter seulement et titres en Inter Bold, garde le bouton pour l'ancienne vue, enregistre le projet dans Assets et pousse. » (12 October 2026, 16:58:42 +0200)
+>
+> **Jeton (design token)** : une valeur de style nommée et définie une seule fois, comme `--tube-title-weight`. Changer ce nombre change tous les titres d'un coup. (12 October 2026, 16:58:42 +0200)
+
+## 12 October 2026, 16:59:49 +0200 : Prompt
+
+<!-- feedback-event:842dac5a465858851b1a175dda3f630ac65f5a14451aa9f02b84745210a4e3fc (12 October 2026, 16:59:49 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (12 October 2026, 16:59:49 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 16:59:49 +0200)
+
+> je vois pas le push actif ? (12 October 2026, 16:59:49 +0200)
+
+## 12 October 2026, 17:00:23 +0200 : Iteration
+
+<!-- feedback-event:23003648bb09c67964147be9e77f934e7142548ee2a9ec8137ca70da63550a75 (12 October 2026, 17:00:23 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 17:00:23 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 17:00:23 +0200)
+
+> Le push git est bien sur `origin/main`, mais le site en ligne sert encore l'ancien build : il manquait le déploiement. Je construis depuis `origin/main` et je déploie. (12 October 2026, 17:00:23 +0200)
+
+## 12 October 2026, 17:02:10 +0200 : Iteration
+
+<!-- feedback-event:d7f396b9a0c623cdc028281038d8d1f413346c2d12437f6c7c50de54c9e4c66a (12 October 2026, 17:02:10 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 17:02:10 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 17:02:10 +0200)
+
+> Déployé. Je vérifie par le point d'entrée réel, comme la règle l'exige. (12 October 2026, 17:02:10 +0200)
+
+## 12 October 2026, 17:02:49 +0200 : Iteration
+
+<!-- feedback-event:5efcb9e2d973d548697176d7e5cd606ab8a114fd8908f1d2778c915091f70420 (12 October 2026, 17:02:49 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 17:02:49 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 17:02:49 +0200)
+
+> Tu avais raison : le code était poussé sur git, mais le site en ligne servait encore l'ancien build. Cloudflare Pages ne se met pas à jour tout seul par un push, il faut un déploiement. (12 October 2026, 17:02:49 +0200)
+>
+> C'est fait maintenant, et vérifié sur le site réel : https://zenray-progress.pages.dev/ sert le nouveau fichier d'entrée, et la partie qui contient la vue Tube répond (200) avec sa bascule des noms. Le déploiement est parti d'un build propre de `origin/main` (commit `13395ecd`). (12 October 2026, 17:02:49 +0200)
+>
+> Fais un rechargement forcé (Cmd+Maj+R), puis ouvre Assets. Si ton navigateur garde l'ancien affichage, tu es peut-être resté en Classique : le bouton Classique / Tube en haut à droite mémorise ton dernier choix. (12 October 2026, 17:02:49 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 October 2026, 17:02:49 +0200)
+> |---|---|---| (12 October 2026, 17:02:49 +0200)
+> | Voir la vue Tube active en ligne | Oui | Le site en ligne sert le nouveau build et sa partie Assets répond | (12 October 2026, 17:02:49 +0200)
+> | Partir du code poussé | Oui | Build fait depuis `origin/main` à jour, pas depuis ton dossier de travail | (12 October 2026, 17:02:49 +0200)
+>
+> Le journal global est à jour. Reste à toi de me dire si tu veux que je déplace le panneau d'uploads de films dans Create, puis que j'attaque la passe performance (chargement en 0,1 s). (12 October 2026, 17:02:49 +0200)
+
+## 12 October 2026, 22:58:32 +0200 : Prompt
+
+<!-- feedback-event:7038e61efef1e767c2427428d8947ef6a7066c6279c9cc824203a71643ba70d2 (12 October 2026, 22:58:32 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (12 October 2026, 22:58:32 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 22:58:32 +0200)
+
+> certaines icones ne sont pas présentes / d'autres sont écrasés / certaines prennent trop de temps à charger  (12 October 2026, 22:58:32 +0200)
+> classique / tube est hyper mal aligné dans les 2 vues (12 October 2026, 22:58:32 +0200)
+> fait en sorte que l'affichage des projets soit toujours en fonction des dernières modifications sur les projets  (12 October 2026, 22:58:32 +0200)
+> ajoute une fonction pour faire en sorte de choisir l'icone et elle se fit automatiquement parfaitement et se sauvegarde Depuis une image contenue dans un projet, fais en sorte que je puisse faire un clic droit pour définir en tant que image thumbnail du projet. Mais en règle générale, essaie de regarder quand j'upload des fichiers via Zenrai Assets de chercher les fichiers thumbnail pour les utiliser directement en tant qu'icône de projet. Essaie de voir si c'est déjà pas possible dans tous les projets via un filtre rapide. Et en plus, tu me permets de développer cette feature qui me permet de choisir l'icône (thumbnail donc dans les fichiers images) que je veux (12 October 2026, 22:58:32 +0200)
+>
+> /tasks-sequence (12 October 2026, 22:58:32 +0200)
+
+## 12 October 2026, 22:58:32 +0200 : Prompt
+
+<!-- feedback-event:4033c357587ad5784402720519045691fd57e41ee5cc6b67d080348cf68ed9a7 (12 October 2026, 22:58:32 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (12 October 2026, 22:58:32 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 22:58:32 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac/images/3.webp] (12 October 2026, 22:58:32 +0200)
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac/images/4.webp] (12 October 2026, 22:58:32 +0200)
+
+## 12 October 2026, 22:58:53 +0200 : Prompt
+
+<!-- feedback-event:0a9793780a272e57bc109e064b0e0a468083ad82c0bf9aeb068cbeea98a478e4 (12 October 2026, 22:58:53 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (12 October 2026, 22:58:53 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 22:58:53 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/tasks-sequence (12 October 2026, 22:58:53 +0200)
+>
+> # Découpe séquentielle (12 October 2026, 22:58:53 +0200)
+>
+> Une demande large échoue rarement parce qu'elle est difficile. Elle échoue parce qu'on l'a traitée (12 October 2026, 22:58:53 +0200)
+> **en bloc** : on tient tout en tête, on code tout, on vérifie à la fin, et ce qui manque ne se voit (12 October 2026, 22:58:53 +0200)
+> qu'au moment où Matthieu le signale. La parade n'est pas de travailler plus, c'est de **découper puis (12 October 2026, 22:58:53 +0200)
+> avancer d'un cran à la fois, en vérifiant chaque cran**. (12 October 2026, 22:58:53 +0200)
+>
+> ## La règle en une phrase (12 October 2026, 22:58:53 +0200)
+>
+> > Aucune tâche ne commence tant que la précédente n'est pas vérifiée, et aucune n'est vérifiée par (12 October 2026, 22:58:53 +0200)
+> > l'intention qu'on avait en l'écrivant. (12 October 2026, 22:58:53 +0200)
+>
+> ## 1. Découper, récursivement (12 October 2026, 22:58:53 +0200)
+>
+> On coupe jusqu'à ce que chaque feuille tienne cette promesse : **un seul geste, une seule preuve**. (12 October 2026, 22:58:53 +0200)
+>
+> Une tâche est encore trop grosse si l'une de ces phrases est vraie : (12 October 2026, 22:58:53 +0200)
+> - sa vérification demande deux contrôles de nature différente (« ça compile » ET « ça s'affiche ») ; (12 October 2026, 22:58:53 +0200)
+> - son énoncé contient « et », « puis », « ainsi que » ; (12 October 2026, 22:58:53 +0200)
+> - on ne sait pas dire, avant de commencer, ce qui prouvera qu'elle est finie. (12 October 2026, 22:58:53 +0200)
+>
+> On applique la coupe **au prompt lui-même d'abord**, puis à chaque morceau obtenu — c'est récursif, et (12 October 2026, 22:58:53 +0200)
+> c'est là que se gagne l'essentiel : un « rework la zone Time block » se coupe en presets, rendu de (12 October 2026, 22:58:53 +0200)
+> l'anneau, valeur par défaut, chacun vérifiable seul. (12 October 2026, 22:58:53 +0200)
+>
+> ## 2. Ordonner, par dépendance puis par coût (12 October 2026, 22:58:53 +0200)
+>
+> L'ordre n'est pas celui du prompt. Trois critères, dans cet ordre : (12 October 2026, 22:58:53 +0200)
+>
+> 1. **Ce qui débloque le reste** passe devant, même si c'est petit. Un outil, un index, une lecture. (12 October 2026, 22:58:53 +0200)
+> 2. **Ce qui est indépendant et rapide** ensuite : la valeur arrive tôt, et une interruption ne laisse (12 October 2026, 22:58:53 +0200)
+>    pas un chantier ouvert. (12 October 2026, 22:58:53 +0200)
+> 3. **Ce qui est gros et couplé** en dernier, quand le terrain est dégagé. (12 October 2026, 22:58:53 +0200)
+>
+> Une donnée à corriger passe avant le code qui l'affiche : sinon on débogue une interface sur des données (12 October 2026, 22:58:53 +0200)
+> fausses, et on corrige un symptôme qui n'existait pas. (12 October 2026, 22:58:53 +0200)
+>
+> ## 3. Exécuter, un cran à la fois (12 October 2026, 22:58:53 +0200)
+>
+> Pour chaque feuille, dans cet ordre, sans en sauter : (12 October 2026, 22:58:53 +0200)
+>
+> | Étape | Ce qu'on fait | Ce qui l'interdit | (12 October 2026, 22:58:53 +0200)
+> |---|---|---| (12 October 2026, 22:58:53 +0200)
+> | Chercher | Le geste technique existe-t-il déjà dans ce dépôt ? | Écrire avant d'avoir grepé une brique générique | (12 October 2026, 22:58:53 +0200)
+> | Faire | Le plus petit changement qui répond | En profiter pour « améliorer » le voisinage | (12 October 2026, 22:58:53 +0200)
+> | Prouver | Une observation réelle, pas un raisonnement | Annoncer « ça marche » sans l'avoir vu | (12 October 2026, 22:58:53 +0200)
+> | Passer | À la suivante seulement | Enchaîner trois tâches puis vérifier en bloc | (12 October 2026, 22:58:53 +0200)
+>
+> **La preuve est de la nature de la tâche**, jamais du confort : une donnée se relit sur le drive, une (12 October 2026, 22:58:53 +0200)
+> interface se regarde dans le navigateur, une valeur se mesure, une suppression se compte. (12 October 2026, 22:58:53 +0200)
+>
+> ## Séquence 3D et HDA : Geometry → UV generation → Texel density normalization (12 October 2026, 22:58:53 +0200)
+>
+> Dans tout pipeline de modélisation 3D procédurale ou HDA, l'ordre des dépendances impose strictement : (12 October 2026, 22:58:53 +0200)
+> `Geometry → UV generation → Texel density normalization` avant toute passe de texturing. (12 October 2026, 22:58:53 +0200)
+>
+> Une modélisation HDA avant d'appliquer le texturing doit toujours avoir des UVs par rapport à une texel density définie. Pourquoi : un HDA devrait sortir avec des UVs propres avant même le texturing, et idéalement avec une texel density définie, car les UVs sont le contrat spatial entre la géométrie et tout ce qui viendra ensuite : textures, trim sheets, decals, baking, lightmaps, masks et matériaux procéduraux. Sans densité cohérente, deux éléments de taille comparable peuvent afficher des niveaux de détail complètement différents, un mur peut paraître deux fois plus flou qu'une porte, un motif peut changer d'échelle selon les paramètres du HDA, et toute modification procédurale peut casser la continuité visuelle. Une texel density fixe permet donc de garantir qu'un mètre de surface reçoit toujours approximativement la même quantité de pixels, indépendamment de la taille, de la variante ou de la génération du mesh. Pour un HDA, c'est encore plus important qu'en modélisation manuelle, car l'asset doit rester fiable quand on change largeur, hauteur, nombre de modules ou proportions : sauf cas particuliers comme du triplanar ou du world-space texturing où les UVs peuvent devenir secondaires. (12 October 2026, 22:58:53 +0200)
+>
+> État des composants de la scène active (Louisiana Bayou) : (12 October 2026, 22:58:53 +0200)
+> - `Component_WoodFacade` : chaîne complète appliquée avec UVs orthogonales périmétriques résolvant les coupes d'angles non droits à 45 degrés (onglets d'angle et rampants de toit sans aucun cisaillement ni écrasement), indexation de cours (`course_k`, `course_y`), connectivité (`piece_id`), texel density normalisée (4.0 UV/m), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V continu, flip aléatoire 180°, pas U discrets). (12 October 2026, 22:58:53 +0200)
+> - `Component_Armature` : chaîne complète appliquée avec UVs natives par sweep calibrées à 4.0 UV/m (`uvscale1 = 4.0 / 2.75`, `uvscale2 = 4.0 / 2.75`), connectivité (`piece_id`), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V, flip aléatoire, pas U discrets). (12 October 2026, 22:58:53 +0200)
+> - `Component_PorchStairs` : chaîne complète appliquée avec projection box orthogonale calibrée à 4.0 UV/m sur 100% des 910 primitives (marches, limons, poteaux, balustres, madriers), connectivité (`piece_id`) et variation procédurale vectorisée (`uv_variation_offset`). (12 October 2026, 22:58:53 +0200)
+> Les 3 composants de la scène partagent désormais le même contrat spatial rigoureux (4.0 UV/m) garantissant une continuité parfaite sous n'importe quel shader ou texture. (12 October 2026, 22:58:53 +0200)
+>
+> ### Doctrine de variation d'UV procédurale : Réfutation V1/V2 et Méthode ZenRay V3 (12 October 2026, 22:58:53 +0200)
+>
+> Pour éviter l'explosion mémoire du multi-UDIM (64 Mo réduits à 16 Mo) et briser la répétition visuelle sur des matériaux identiques sans trimsheet rigide : (12 October 2026, 22:58:53 +0200)
+>
+> 1. **Historique et écueils des méthodes passées** : (12 October 2026, 22:58:53 +0200)
+>    - **V1 (Approche manuelle)** : 4 branches de géométrie, 4 nœuds Name, 4 UV Transform statiques, Copy to Points. Rigide et impossible à scaler. (12 October 2026, 22:58:53 +0200)
+>    - **V2 (Templates instanciés et boucle For-Each SOP)** : 1 mesh dupliqué en 40 templates via Copy & Transform, nommage A1..A40 par sprintf, distribution modulo sur points, Copy to Points, unpack, connectivity, puis boucle For-Each SOP avec metadata pour faire `@uv.y += rand(iter)`. (12 October 2026, 22:58:53 +0200)
+>
+> 2. **Réfutation technique de la méthode V2** : (12 October 2026, 22:58:53 +0200)
+>    - **Goulot d'étranglement de la boucle For-Each SOP** : réévaluer un graphe SOP en boucle N fois par pièce est un anti-pattern majeur dans Houdini qui détruit les performances dès que le nombre d'éléments grandit. (12 October 2026, 22:58:53 +0200)
+>    - **Sur-ingénierie du Copy-to-Points** : fabriquer 40 copies packed d'un même cube juste pour leur attribuer un identifiant textuel est une plomberie inutile pour des géométries déjà générées procéduralement (sweeps, profilages, découpes booléennes). (12 October 2026, 22:58:53 +0200)
+>    - **Décalage aléatoire brut (`rand()`) sans pas discret** : un float aléatoire continu fonctionne uniquement sur une texture 100% sans raccord en V. Dès que la texture contient N planches distinctes ou un atlas, le décalage continu coupe les motifs en deux et crée des artefacts de couture (seam bleeding). (12 October 2026, 22:58:53 +0200)
+>
+> 3. **Méthode ZenRay V3 (Vectorisée, 0.001 ms, zéro boucle For-Each)** : (12 October 2026, 22:58:53 +0200)
+>    - **Génération native alignée** : sur les poutres et courbes (`sweep::2.0`), activer `computeuvs = 1` et `lengthweighteduvs = 1`. L'axe U épouse le profil, l'axe V suit rigoureusement la longueur de la courbe, le fil du bois est toujours orienté dans le bon sens et la texel density est uniforme. (12 October 2026, 22:58:53 +0200)
+>    - **Tag de pièce instantané** : un simple nœud `connectivity` SOP en mode primitif crée `piece_id`. (12 October 2026, 22:58:53 +0200)
+>    - **Wrangle vectorisé unique sur sommets (Run Over: Vertices)** : (12 October 2026, 22:58:53 +0200)
+>      ```c (12 October 2026, 22:58:53 +0200)
+>      int piece = prim(0, "piece_id", @primnum); (12 October 2026, 22:58:53 +0200)
+>      float seed = chf("../uv_seed"); (12 October 2026, 22:58:53 +0200)
+>      float v_scale = chf("../uv_v_offset_scale"); (12 October 2026, 22:58:53 +0200)
+>
+>      // Décalage continu le long du fil du bois (axe V) (12 October 2026, 22:58:53 +0200)
+>      float v_rand = rand(piece + seed + 0.1234); (12 October 2026, 22:58:53 +0200)
+>      @uv.y += v_rand * v_scale; (12 October 2026, 22:58:53 +0200)
+>
+>      // Flip aléatoire 180° pour doubler la variété (12 October 2026, 22:58:53 +0200)
+>      if (chi("../uv_random_flip") && rand(piece + seed + 0.7891) > 0.5) { (12 October 2026, 22:58:53 +0200)
+>          @uv.y = -@uv.y; (12 October 2026, 22:58:53 +0200)
+>      } (12 October 2026, 22:58:53 +0200)
+>
+>      // Pas discret en U si atlas de N lattes (12 October 2026, 22:58:53 +0200)
+>      int u_variants = chi("../uv_u_variants"); (12 October 2026, 22:58:53 +0200)
+>      if (u_variants > 1) { (12 October 2026, 22:58:53 +0200)
+>          int choice = int(floor(rand(piece + seed + 0.4567) * float(u_variants))); (12 October 2026, 22:58:53 +0200)
+>          @uv.x = (@uv.x / float(u_variants)) + (float(choice) / float(u_variants)); (12 October 2026, 22:58:53 +0200)
+>      } (12 October 2026, 22:58:53 +0200)
+>      ``` (12 October 2026, 22:58:53 +0200)
+>    - **Alternative shader UE5** : déporter le décalage dans le Material Graph Unreal Engine en passant `piece_id` ou un attribut aléatoire dans une couleur de sommet (`Cd`) ou un canal UV secondaire. (12 October 2026, 22:58:53 +0200)
+>
+> ## 4. Rendre compte de ce qui reste (12 October 2026, 22:58:53 +0200)
+>
+> À la fin, la liste des feuilles avec leur état réel. Une feuille non faite se dit **non faite**, avec sa (12 October 2026, 22:58:53 +0200)
+> raison. Une feuille faite mais non vérifiée se dit ainsi : c'est un état légitime, à condition d'être (12 October 2026, 22:58:53 +0200)
+> nommé. Le silence sur une partie de la demande est la seule faute qui ne se rattrape pas, parce que (12 October 2026, 22:58:53 +0200)
+> Matthieu croit alors la chose faite. (12 October 2026, 22:58:53 +0200)
+>
+> ## Erreurs déjà payées (12 October 2026, 22:58:53 +0200)
+>
+> | Erreur | Cause racine | La règle | (12 October 2026, 22:58:53 +0200)
+> |---|---|---| (12 October 2026, 22:58:53 +0200)
+> | Une partie du prompt oubliée | Découpe faite de tête, jamais écrite | La liste des feuilles s'écrit AVANT de coder | (12 October 2026, 22:58:53 +0200)
+> | « Ça ne marche pas » annoncé à tort | Vérification faite dans un environnement qui bride le mécanisme | Vérifier que le VÉRIFICATEUR fonctionne avant de conclure | (12 October 2026, 22:58:53 +0200)
+> | Trois correctifs empilés, aucun vérifié | Enchaînement sans preuve intermédiaire | Une preuve par feuille, avant la suivante | (12 October 2026, 22:58:53 +0200)
+> | Interface déboguée sur des données fausses | Ordre du prompt suivi au lieu de l'ordre des dépendances | Les données d'abord, l'affichage ensuite | (12 October 2026, 22:58:53 +0200)
+> | Brique générique réécrite | Recherche par le NOM de la fonctionnalité | Chercher le geste technique (`a.download`, `zipSync`, `onPaste`) | (12 October 2026, 22:58:53 +0200)
+
+## 12 October 2026, 23:17:17 +0200 : Iteration
+
+<!-- feedback-event:5c801a8321105aba68eef172e2e7aaa9959ea12c42f39a94e7a9f77fdbef3ffb (12 October 2026, 23:17:17 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 23:17:17 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 23:17:17 +0200)
+
+> Le worktree est prêt. Je lis le helper d'écriture JSON existant pour mémoriser les miniatures sans rien réinventer. (12 October 2026, 23:17:17 +0200)
+
+## 12 October 2026, 23:46:57 +0200 : Iteration
+
+<!-- feedback-event:5f571f3232d032ad8fd8c25a1b07535d9326a31d0ef360de3c091cbf3bcaab56 (12 October 2026, 23:46:57 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 23:46:57 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 23:46:57 +0200)
+
+> Toute la suite passe (1 515 tests). Je commite, je pousse sur `origin/main`, puis je déploie depuis un build propre. (12 October 2026, 23:46:57 +0200)
+
+## 12 October 2026, 23:50:15 +0200 : Standing rule
+
+<!-- feedback-event:8da86f7b9e2a2e4f283785a5827c2a64fc8d846e9939d5f078f5c2373b42b6a7 (12 October 2026, 23:50:15 +0200) -->
+- Project: zenray-assets-tube-view; kind: rule. (12 October 2026, 23:50:15 +0200)
+
+> La miniature d'un projet se choisit par clic droit sur une image (vue Tube) ; le choix manuel prime toujours sur l'automatique. Sans choix, un fichier nommé thumbnail, cover, poster, icon ou miniature, ou rangé dans un dossier Thumbnail, est adopté seul ; les icônes web, sorties de build et plugins ne comptent jamais. (12 October 2026, 23:50:15 +0200)
+
+## 12 October 2026, 23:50:15 +0200 : Standing rule
+
+<!-- feedback-event:0d6287cd08c6b9f7f3f20a1b0dda5938e80819a360bfa226bc321430d3ca40fe (12 October 2026, 23:50:15 +0200) -->
+- Project: zenray-assets-tube-view; kind: rule. (12 October 2026, 23:50:15 +0200)
+
+> L'accueil Assets liste les projets par leur dernière vraie modification de fichier (lastActivityAt), jamais par l'heure de publication ni par un fichier généré (ConversationIndex, FileMap, Project.json). Un projet sans image montre ses initiales, jamais une boîte vide. (12 October 2026, 23:50:15 +0200)
+
+## 12 October 2026, 23:50:15 +0200 : Standing rule
+
+<!-- feedback-event:1ad79a520324903bc5790c2bff19d76ed6e4c4ca2353dad221d12a4b7be243b6 (12 October 2026, 23:50:15 +0200) -->
+- Project: zenray-assets-tube-view; kind: rule. (12 October 2026, 23:50:15 +0200)
+
+> Le commutateur Classique / Tube est dans une seule barre, en haut à droite de la colonne, identique dans les deux vues. Toute image ou canvas d'une tuile est recadré (object-fit cover), jamais étiré. (12 October 2026, 23:50:15 +0200)
+
+## 12 October 2026, 23:50:32 +0200 : Iteration
+
+<!-- feedback-event:21d047da2ae894e08d388099b40197cabd9536a6d71fbcb32e9e6e91c6ca7eca (12 October 2026, 23:50:32 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (12 October 2026, 23:50:32 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (12 October 2026, 23:50:32 +0200)
+
+> Les corrections sont en ligne sur https://zenray-progress.pages.dev, vérifiées par le fichier d'entrée servi (`index-Bq5dWOiP.js`). Fais un rechargement forcé (Cmd+Maj+R). Les réglages visuels n'ont pas pu être contrôlés sur le site réel : la vérification visuelle a eu lieu sur le même code, en local. (12 October 2026, 23:50:32 +0200)
+>
+> ## Ce qui change (12 October 2026, 23:50:32 +0200)
+>
+> - **Miniature d'un projet, par clic droit :** (12 October 2026, 23:50:32 +0200)
+>   - Sur une image, en vue Tube, le menu propose « Définir comme miniature du projet ». Il propose aussi « Retirer cette miniature » si elle l'est déjà. (12 October 2026, 23:50:32 +0200)
+>   - Un badge « Miniature » marque le fichier choisi. (12 October 2026, 23:50:32 +0200)
+>   - L'image est recadrée au centre au format de la carte (360 × 203) et sauvegardée avec le choix, donc elle s'affiche sans rien recharger. (12 October 2026, 23:50:32 +0200)
+>   - Retirer le choix te remet la miniature automatique. Testé en vrai sur Louisiana Bayou : choix, sauvegarde cloud, puis retrait. (12 October 2026, 23:50:32 +0200)
+> - **Miniature automatique :** un fichier nommé thumbnail, cover, poster, icon ou miniature, ou rangé dans un dossier `Thumbnail`, est adopté tout seul à l'ouverture du projet. Les icônes web, sorties de build et plugins sont ignorés. Ton choix manuel prime toujours. (12 October 2026, 23:50:32 +0200)
+> - **Ordre des projets :** l'accueil classe par la dernière vraie modification d'un fichier, plus par ordre alphabétique. Les fichiers générés par le service et les heures de publication ne comptent pas. Ordre constaté : Assets Tube View, Japanese rework, Motion Design, Assets V2, Dictate. (12 October 2026, 23:50:32 +0200)
+> - **Icônes manquantes :** un projet sans image affiche ses initiales sur un pastel stable, plus jamais une boîte grise vide. (12 October 2026, 23:50:32 +0200)
+> - **Icônes écrasées :** toute image d'une tuile est maintenant recadrée au lieu d'être étirée. (12 October 2026, 23:50:32 +0200)
+> - **Icônes lentes :** les aperçus ne se chargent que près de l'écran, et la roue de chargement cède la place à l'icône du type (avec « PNG », « USD »…) après 3,5 secondes au lieu de tourner sans fin. (12 October 2026, 23:50:32 +0200)
+> - **Commutateur Classique / Tube :** il est dans une seule barre en haut à droite, au même endroit dans les deux vues. (12 October 2026, 23:50:32 +0200)
+>
+> Deux autres corrections au passage : un projet demandé par l'adresse n'est plus remplacé par le premier de la liste pendant le chargement, et la fiche d'un projet sans liens de conversation ne plante plus. (12 October 2026, 23:50:32 +0200)
+>
+> ## Ton filtre rapide sur tous les projets (12 October 2026, 23:50:32 +0200)
+>
+> J'ai écrit `scripts/Assets/ScanProjectCovers.mjs` et je l'ai lancé sur les 31 projets. Résultat : **8 projets sur 31 avaient déjà un fichier nommé comme une miniature**, dont Louisiana Bayou, Ceramic Tiles, Japanese Environment, Motion Design et Dictate. Le script a écrit une miniature pour 17 projets (8 trouvées par nom, 9 reprises de l'affichage existant) et la dernière modification des 31. Le chip « Sans miniature » de l'accueil liste les projets qui n'en ont pas, et 14 projets n'ont aucune image à montrer (conversations, notes). (12 October 2026, 23:50:32 +0200)
+>
+> ## Ce qui reste, dit franchement (12 October 2026, 23:50:32 +0200)
+>
+> 1. **Les tuiles de fichiers sans aperçu :** une image archivée par le service n'a pas de vignette. Ses octets bruts sont en archive, sans aperçu. Les tuiles de fichiers affichent donc leur icône de type. Seules les miniatures de projets sont réparées. La vraie solution est que le service écrive une vignette dans chaque manifeste à l'archivage, ce qui sera une tâche à part. (12 October 2026, 23:50:32 +0200)
+> 2. **Le service Assets ne tourne plus depuis le redémarrage du Mac** (`com.zenray.assets` absent de `launchctl list`). Je ne l'ai pas relancé sans ton accord. Sans lui, les archives n'avancent pas et le site affiche « État local inconnu ». (12 October 2026, 23:50:32 +0200)
+> 3. **Le chargement reste long en local :** le Mac est très chargé (load average autour de 150), donc la fiche d'un gros projet met jusqu'à 2 minutes. Le panneau d'uploads de films reste à déplacer dans Create. (12 October 2026, 23:50:32 +0200)
+> 4. **Données écrites dans le cloud :** `pages/.zr-assets-covers.json` (nouveau, 164 Ko) et `lastActivityAt` dans l'index des projets. Si tu veux annuler, dis-le-moi. (12 October 2026, 23:50:32 +0200)
+>
+> Le dépôt local principal reste désynchronisé (2 commits en avance, plus de 40 en retard), je n'y ai pas touché. (12 October 2026, 23:50:32 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 October 2026, 23:50:32 +0200)
+> |---|---|---| (12 October 2026, 23:50:32 +0200)
+> | Icônes manquantes, écrasées, lentes | Oui pour les projets et le chargement, non pour les aperçus de fichiers | Initiales, recadrage et roue testés ; les images brutes archivées n'ont pas de vignette | (12 October 2026, 23:50:32 +0200)
+> | Commutateur bien aligné dans les 2 vues | Oui | Un seul emplacement, test qui le vérifie dans les deux vues | (12 October 2026, 23:50:32 +0200)
+> | Projets par dernières modifications | Oui | Ordre constaté sur ton catalogue réel, test avec fichiers générés ignorés | (12 October 2026, 23:50:32 +0200)
+> | Choisir l'icône par clic droit, qui s'ajuste et se sauvegarde | Oui | Choix puis retrait testés de bout en bout, fichier cloud relu | (12 October 2026, 23:50:32 +0200)
+> | Chercher les miniatures à l'upload / filtre rapide | Oui, au balayage et à l'ouverture d'un projet | 8 projets sur 31 trouvés par nom, chip « Sans miniature » | (12 October 2026, 23:50:32 +0200)
+> | Tout en ligne | Oui | Entrée du site égale au build, 1 515 tests verts avant fusion, 93 ciblés après | (12 October 2026, 23:50:32 +0200)
+>
+> Reformulation plus courte de ta demande : « Corrige les icônes (manquantes, écrasées, lentes), aligne le commutateur, classe les projets par dernière modification, et ajoute le clic droit pour choisir la miniature du projet avec détection automatique des fichiers thumbnail. » (12 October 2026, 23:50:32 +0200)
+>
+> **Data URI** : une image encodée directement en texte dans le fichier de données, ici une miniature de 5 à 20 Ko, qui s'affiche sans aucune requête réseau. (12 October 2026, 23:50:32 +0200)
+
+## 13 October 2026, 19:10:11 +0200 : Prompt
+
+<!-- feedback-event:5dcb9f6b5098c6c8ccae8aba604fc7bc5059125370d325d2185219bbf95b10e5 (13 October 2026, 19:10:11 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (13 October 2026, 19:10:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (13 October 2026, 19:10:11 +0200)
+
+> tout est terminé pour l'instant ? (13 October 2026, 19:10:11 +0200)
+
+## 13 October 2026, 19:10:25 +0200 : Prompt
+
+<!-- feedback-event:ebc1accbfb2d0d34535ac9134cb3fd84dd91d35e428457e8ea083e29c4a148fe (13 October 2026, 19:10:25 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (13 October 2026, 19:10:25 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (13 October 2026, 19:10:25 +0200)
+
+> [Request interrupted by user] (13 October 2026, 19:10:25 +0200)
+
+## 14 October 2026, 12:24:12 +0200 : Iteration
+
+<!-- feedback-event:12514f7e20272b95654e9d28964c9c515291a081293ffc982101fbd75c7ab6b8 (14 October 2026, 12:24:12 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:24:12 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:24:12 +0200)
+
+> No response requested. (14 October 2026, 12:24:12 +0200)
+
+## 14 October 2026, 12:29:29 +0200 : Prompt
+
+<!-- feedback-event:7f127e8142e49cf9e5aa55ad751277c33acc72dffe751a0654429fc05a6c8ba4 (14 October 2026, 12:29:29 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (14 October 2026, 12:29:29 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:29:29 +0200)
+
+> append tes fichiers de rework proposés depuis le début dans /zenray-edit (notamment dans son dossier) et dans /zenray-assets de zenray-edit (anciennement zenray html) (14 October 2026, 12:29:29 +0200)
+>
+> y'a aussi le text jaune motion présent vogun dans /zenray-houdini que j'aimerai consigner dans /zenray-edit  (14 October 2026, 12:29:29 +0200)
+>
+> puis tout cloud proprement le projet zenray edit via /zenray-assets  (14 October 2026, 12:29:29 +0200)
+>
+> /wait-validation (14 October 2026, 12:29:29 +0200)
+
+## 14 October 2026, 12:30:06 +0200 : Prompt
+
+<!-- feedback-event:86f6afba180ef9d62e1dee8e477db10e21bb98c2f4440851ac63be5e78618824 (14 October 2026, 12:30:06 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (14 October 2026, 12:30:06 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:30:06 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/wait-validation (14 October 2026, 12:30:06 +0200)
+>
+> # Validation préalable (14 October 2026, 12:30:06 +0200)
+>
+> Attendre la validation explicite de Matthieu avant toute action. (14 October 2026, 12:30:06 +0200)
+>
+> 1. **Arrêt immédiat.** Aucune modification de fichier, aucune commande destructive, aucun commit et aucun outil lourd ne s'exécute d'office. (14 October 2026, 12:30:06 +0200)
+>
+> 2. **Cadrage ultra-court.** Présenter l'action prévue, le périmètre et la méthode en quasi une ligne, ou en 3 paragraphes courts maximum si le contexte l'exige. (14 October 2026, 12:30:06 +0200)
+>
+> 3. **Attente du feu vert.** Attendre une validation explicite (« ok », « go », « fais-le ») avant de lancer l'exécution et la vérification. (14 October 2026, 12:30:06 +0200)
+
+## 14 October 2026, 12:30:13 +0200 : Iteration
+
+<!-- feedback-event:56516c5dbe691954c8e3ef7f656871f55257cbc60e2fe5ac82f02fc17146011e (14 October 2026, 12:30:13 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:30:13 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:30:13 +0200)
+
+> Je m'arrête avant d'agir. Voici ce que je ferais, dans cet ordre. (14 October 2026, 12:30:13 +0200)
+>
+> **1. Ranger les fichiers de rework dans zenray-edit.** Je copie dans le dossier du skill `zenray-edit` mes trois maquettes (`AssetsRework.html`, `TubeDetails.html`, `TubeProject.html`) ainsi que mon plan de conception. Je range aussi la même copie dans son projet Assets, nommé `zenray-edit`. Rien n'est déplacé, je copie seulement, donc les originaux de `tmp-zenray-assets-rework` restent intacts. (14 October 2026, 12:30:13 +0200)
+>
+> **2. Le texte jaune Vogun de zenray-houdini.** Je commence par chercher dans le skill `zenray-houdini` et dans son atelier le fichier ou le gabarit du « texte jaune motion » en Vogun. Je ne sais pas encore où il est. Je le copie ensuite dans `zenray-edit` en conservant sa police et son paramétrage, puis je note sa provenance. Je te redis le chemin exact avant de le copier. (14 October 2026, 12:30:13 +0200)
+>
+> **3. Tout mettre dans le cloud, proprement.** Je lance l'inventaire du projet `zenray-edit` par `zenray-assets`, puis l'archive, et je ne dis « sauvegardé » qu'après la vérification cloud. Je n'exporte ni secrets, ni caches, ni dossier mixte entier. (14 October 2026, 12:30:13 +0200)
+>
+> Trois points à confirmer avant d'agir : (14 October 2026, 12:30:13 +0200)
+> - Par « `/zenray-assets` de zenray-edit (anciennement zenray html) », je comprends le **projet Assets `zenray-edit`**. Si tu pensais à un autre dossier, dis-le-moi. (14 October 2026, 12:30:13 +0200)
+> - Le service Assets ne tournait plus depuis le redémarrage du Mac. Je vérifie son état d'abord. S'il est arrêté, l'archive cloud attendra que tu me dises de le relancer. (14 October 2026, 12:30:13 +0200)
+> - Les fichiers du cloud sont aujourd'hui nombreux (projet de 547 fichiers). Je n'archive que ce qui est relié au projet. (14 October 2026, 12:30:13 +0200)
+>
+> Dis-moi « go » pour lancer, ou corrige un point. (14 October 2026, 12:30:13 +0200)
+
+## 14 October 2026, 12:32:59 +0200 : Prompt
+
+<!-- feedback-event:3fc8b047a0ba20fe4a97c6dd8ca34c604dbfe6290a7bd14428191623998f04fe (14 October 2026, 12:32:59 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (14 October 2026, 12:32:59 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:32:59 +0200)
+
+> go vérifie que /zenray-assets a bien les nouvelles politiques de github qu'on a écrit d'abord /wait-validation (14 October 2026, 12:32:59 +0200)
+
+## 14 October 2026, 12:33:50 +0200 : Iteration
+
+<!-- feedback-event:0cd576793c6cabec1de221db27ca3c9699e8e03ff1e2f1709680b65518ad3567 (14 October 2026, 12:33:50 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:33:50 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:33:50 +0200)
+
+> Vérification faite, sans rien modifier. Réponse courte : **non, `zenray-assets` ne porte pas ces politiques, et son moteur ne les applique pas encore.** (14 October 2026, 12:33:50 +0200)
+>
+> ## Ce que j'ai constaté (14 October 2026, 12:33:50 +0200)
+>
+> **1. Le skill `zenray-assets` ne contient aucune des nouvelles valeurs.** Aucune mention de 1 900 Mio, de 2 048, de `push-batch-policy`, de `repo-create-policy` ni des variables `ZR_PUSH_*`. Depuis le 14 octobre, il dit seulement que les politiques d'upload et de drive ont été déplacées vers `zenray-progress`. C'est voulu, mais l'archivage d'Assets passe par `archive-folder.mjs`, que la politique gouverne désormais. Le skill ne le dit donc nulle part. (14 October 2026, 12:33:50 +0200)
+>
+> **2. `zenray-progress` les porte, avec deux trous.** (14 October 2026, 12:33:50 +0200)
+> - Son `SKILL.md` contient les valeurs courantes : 1 900 Mio dimensionné par la ligne, dépôt de film à 4 096 Mio, dépôt de dossier à 2 048 Mio, créations espacées, preuve par identité d'objets. (14 October 2026, 12:33:50 +0200)
+> - `references/UploadPolicies.md` et le `Rules.md` du projet portent le texte complet du 14 octobre, politique dynamique et limite secondaire comprises. (14 October 2026, 12:33:50 +0200)
+> - Trou 1 : les noms des variables (`ZR_PUSH_*`, `ZR_REPO_*`) ne figurent que dans `Rules.md` et le global, pas dans le skill. (14 October 2026, 12:33:50 +0200)
+> - Trou 2 : l'ancienne section du 9 octobre « Limite des lots d'archives » (256 MiB) est toujours dans le skill Assets, sans mention qu'elle est dépassée. (14 October 2026, 12:33:50 +0200)
+>
+> **3. Le code de la politique est sur `origin/main`, mais pas dans le dépôt que le service Assets exécute.** (14 October 2026, 12:33:50 +0200)
+> - Les trois fichiers (`push-batch-policy.mjs`, `repo-create-policy.mjs`, `push-policy-simulation.mjs`) sont dans `origin/main` (cinq commits du 12 au 14 octobre). (14 October 2026, 12:33:50 +0200)
+> - Le daemon se lance depuis le dépôt principal. Celui-ci a 81 commits de retard, donc ces fichiers y sont absents, et son `archive-folder.mjs` n'en importe aucun (0 occurrence, contre 3 sur `origin/main`). (14 October 2026, 12:33:50 +0200)
+> - Le service n'est d'ailleurs pas chargé du tout (`launchctl list` ne le montre pas). (14 October 2026, 12:33:50 +0200)
+>
+> **4. Le contrat du skill ne surveille pas ces fichiers.** Un changement de politique ne rendrait donc pas le skill Assets « périmé ». (14 October 2026, 12:33:50 +0200)
+>
+> ## Ce que je propose, et j'attends ton accord pour chaque point (14 October 2026, 12:33:50 +0200)
+>
+> 1. Ajouter dans `zenray-assets` une courte section datée qui renvoie vers `zenray-progress` et dit que l'archive de dossier suit la politique (valeurs, variables et fichiers), puis marquer la section du 9 octobre comme historique. Je synchronise ensuite le skill et j'enregistre le contrat. (14 October 2026, 12:33:50 +0200)
+> 2. Ajouter les noms de variables dans `UploadPolicies.md` de `zenray-progress`. (14 October 2026, 12:33:50 +0200)
+> 3. Ajouter les deux fichiers de politique à la liste surveillée du contrat Assets. (14 October 2026, 12:33:50 +0200)
+> 4. Mettre le dépôt principal à jour sur `origin/main` avant de relancer le service. Il porte 3 commits locaux non poussés, donc je ne le fais pas sans toi. (14 October 2026, 12:33:50 +0200)
+>
+> C'est ton plan précédent (rangement des maquettes dans `zenray-edit`, texte Vogun, archive cloud) qui reste en attente. Dis-moi « go » pour tout ou point par point. (14 October 2026, 12:33:50 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (14 October 2026, 12:33:50 +0200)
+> |---|---|---| (14 October 2026, 12:33:50 +0200)
+> | Savoir si `zenray-assets` a les nouvelles politiques GitHub | Oui, la réponse est non | 0 occurrence des valeurs dans le skill ; pointeur vers `zenray-progress` seulement | (14 October 2026, 12:33:50 +0200)
+> | Savoir où elles sont écrites | Oui | `zenray-progress` (SKILL.md, UploadPolicies.md), Rules.md, code sur `origin/main` | (14 October 2026, 12:33:50 +0200)
+> | Vérifier que le moteur d'Assets les applique | Oui, pas encore | `archive-folder.mjs` local à 0 occurrence ; service non chargé | (14 October 2026, 12:33:50 +0200)
+> | Rien modifier avant ton feu vert | Oui | Lectures seules | (14 October 2026, 12:33:50 +0200)
+
+## 14 October 2026, 12:34:26 +0200 : Prompt
+
+<!-- feedback-event:4e5497d6d4c6011af73bcfc70ed7f77a739d1a985cd4223c0ddae8385357da9e (14 October 2026, 12:34:26 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (14 October 2026, 12:34:26 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:34:26 +0200)
+
+> Mais du coup, Zenrai Assets, il effectue quoi ? comme politique github ? fais un tableau comparatif (14 October 2026, 12:34:26 +0200)
+
+## 14 October 2026, 12:35:09 +0200 : Iteration
+
+<!-- feedback-event:8f52e460c1845681eb7a5e771727dfb244d722cdcb1830e96a47792d3c40a9c0 (14 October 2026, 12:35:09 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:35:09 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:35:09 +0200)
+
+> Voici ce que `ZenRay Assets` fait réellement côté GitHub. Les valeurs viennent de la lecture du code (`archive-folder.mjs`, `AssetsConfig.json`, `push-batch-policy.mjs`), pas de mémoire. (14 October 2026, 12:35:09 +0200)
+>
+> | Sujet | **Assets aujourd'hui** (dépôt que le service exécuterait) | **Assets avec le code de `origin/main`** (pas encore en service) | **Films / Create** (worker, déjà à la nouvelle politique) | (14 October 2026, 12:35:09 +0200)
+> |---|---|---|---| (14 October 2026, 12:35:09 +0200)
+> | Taille d'un push | Départ à 20 Mio, ×1,8 à chaque réussite, plafond fixe de 150 Mio | Même départ à 20 Mio et même ×1,8, mais le plafond suit la ligne mesurée, jusqu'à 1 900 Mio | 1 900 Mio d'emblée, soit 20 parts de 95 Mio, dimensionné par la ligne | (14 October 2026, 12:35:09 +0200)
+> | Échecs | Jusqu'à 40 tentatives par push, 12 pour les manifestes | Identique (40 tentatives) | Compté par lot : 3 échecs ramènent à 190 Mio, puis remontée par paliers 2, 4, 8, 12, 16, 20 | (14 October 2026, 12:35:09 +0200)
+> | Taille d'un dépôt | 2 Gio, un gros fichier se répartit sur plusieurs dépôts | 2 048 Mio, inchangé | 4 096 Mio (43 parts) pour les films nouveaux | (14 October 2026, 12:35:09 +0200)
+> | Création de dépôts | Un dépôt par dossier archivé, aucune porte partagée, attentes de 1, 2, 5, 10, 15 puis 30 min si bloqué | Identique : la porte de création n'est PAS branchée sur l'archive de dossier | Un dépôt réutilisé par voie, créations espacées de 2 min, 12 par heure (jusqu'à 24 si le volume l'exige) | (14 October 2026, 12:35:09 +0200)
+> | Après un refus définitif | Nouveau dépôt `-r02`, puis `-r03` | Identique | Réutilisation d'abord, puis nouveau dépôt | (14 October 2026, 12:35:09 +0200)
+> | Lots côté service | 200 fichiers ou 256 Mio par job, un petit lot automatique par passage, rotation entre sources | Identique | Sans objet (worker propre) | (14 October 2026, 12:35:09 +0200)
+> | Délais | Archive coupée à 15 min, index à 2 min, nouvelle tentative après 1 min | Identique | Garde-fou de 30 min minimum, allongé avec le lot | (14 October 2026, 12:35:09 +0200)
+> | Preuve avant de décharger | Octets comparés par SHA, restauration cloud indépendante pour les ajouts (LOAD/UNLOAD) | Identique | Preuve par identité d'objets, une vraie part relue, relecture complète seulement après échec | (14 October 2026, 12:35:09 +0200)
+> | Apprentissage de la ligne | Aucun | Oui, partagé entre processus par un fichier d'état | Oui | (14 October 2026, 12:35:09 +0200)
+>
+> ## Ce qu'il faut en retenir (14 October 2026, 12:35:09 +0200)
+>
+> 1. **Aujourd'hui, Assets reste en « départ progressif » plafonné à 150 Mio.** Il n'a rien de la nouvelle politique, parce que son dépôt local est en retard de 81 commits et que le service n'est pas chargé. (14 October 2026, 12:35:09 +0200)
+> 2. **Le code poussé ne change qu'une chose pour Assets : le plafond d'un push.** Il passe de 150 Mio fixes à la ligne mesurée (jusqu'à 1 900 Mio). Le reste est identique. (14 October 2026, 12:35:09 +0200)
+> 3. **Un trou réel :** la porte de création de dépôts n'est branchée que sur les films (`video-raw-lib.mjs`). L'archive de dossier d'Assets crée ses dépôts sans espacement ni budget. C'est la rafale qui a déclenché le blocage secondaire de GitHub le 14 octobre. Le risque est plus faible pour Assets (un dépôt par source, pas par fichier), mais il n'est pas couvert. (14 October 2026, 12:35:09 +0200)
+>
+> Question pour toi : veux-tu que je branche la porte de création sur l'archive de dossier, pour qu'Assets obéisse à la même règle que les films ? C'est le seul vrai écart de politique. Le reste ne demande que la mise à jour du dépôt local, donc ton accord pour ces 3 commits locaux non poussés. (14 October 2026, 12:35:09 +0200)
+>
+> Reformulation plus courte de ta question : « Compare la politique GitHub d'Assets, d'aujourd'hui et du code poussé, à celle des films. » (14 October 2026, 12:35:09 +0200)
+>
+> **Porte de création** : un fichier d'état partagé par tous les processus de la machine, qui espace les créations de dépôts et mémorise un blocage de GitHub pour que personne ne retente. (14 October 2026, 12:35:09 +0200)
+
+## 14 October 2026, 12:40:21 +0200 : Prompt
+
+<!-- feedback-event:8617497620c008e1c143f93f021ec3869c25c20ce4837a402d82717cf420966a (14 October 2026, 12:40:21 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (14 October 2026, 12:40:21 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:40:21 +0200)
+
+> reverifie (14 October 2026, 12:40:21 +0200)
+
+## 14 October 2026, 12:41:31 +0200 : Iteration
+
+<!-- feedback-event:24a424596412b96ca27a38fa25b23c575ab2fbb7fcd9d835c366a95ac6977035 (14 October 2026, 12:41:31 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:41:31 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:41:31 +0200)
+
+> J'ai relu le code ligne par ligne, et **une cellule de mon tableau précédent était fausse**. La voici corrigée, avec le reste revérifié. (14 October 2026, 12:41:31 +0200)
+>
+> ## Correction (14 October 2026, 12:41:31 +0200)
+>
+> Le tableau précédent disait que la création de dépôts d'Assets attend « 1, 2, 5, 10, 15 puis 30 min » en cas de blocage. C'est faux : cette échelle concerne les fichiers encore en cours d'écriture, par exemple un torrent. Voici ce que fait vraiment la création de dépôt dans `archive-folder.mjs` : (14 October 2026, 12:41:31 +0200)
+>
+> - **Elle essaie 5 fois**, avec 3, 6, 9, 12 puis 15 secondes d'attente entre deux essais (`gh repo create`, puis un appel direct à l'API). (14 October 2026, 12:41:31 +0200)
+> - **Au 5e échec, l'archive s'arrête en erreur.** Le service la relance entière 60 secondes plus tard (`retryMs`). (14 October 2026, 12:41:31 +0200)
+> - **Il n'y a aucune mémoire partagée du blocage.** Chaque relance sonde donc GitHub à nouveau, quelques secondes après la précédente, ce qui prolonge un blocage secondaire. (14 October 2026, 12:41:31 +0200)
+>
+> ## Tableau revérifié (14 October 2026, 12:41:31 +0200)
+>
+> | Sujet | **Assets aujourd'hui** (dépôt que le service exécute) | **Assets avec `origin/main`** (poussé, pas en service) | **Films** (worker) | (14 October 2026, 12:41:31 +0200)
+> |---|---|---|---| (14 October 2026, 12:41:31 +0200)
+> | Taille d'un push | Départ à 20 Mio, ×1,8 à chaque lot réussi, plafond fixe de 150 Mio | Même départ et même ×1,8, plafond qui suit la ligne mesurée, jusqu'à 1 900 Mio | 1 900 Mio d'emblée (20 parts de 95 Mio) | (14 October 2026, 12:41:31 +0200)
+> | Échec transitoire d'un push | 40 essais du même push, attente `min(120 s, 4 s × essai)`, **aucune réduction de la taille** | Identique (40 essais) | Compté par lot : 3 échecs ramènent à 190 Mio, puis remontée 2, 4, 8, 12, 16, 20 | (14 October 2026, 12:41:31 +0200)
+> | Refus définitif | Détecté, le service passe à un dépôt `-r02`, puis `-r03` | Identique | Détecté (`push-refus-definitif`), reprise par le worker (non relue en détail) | (14 October 2026, 12:41:31 +0200)
+> | Plafond d'un dépôt | 2 Gio, **un nouveau dépôt tous les 2 Gio** (donc environ 5 dépôts pour 10 Go) | 2 048 Mio, inchangé | 4 096 Mio pour les films nouveaux | (14 October 2026, 12:41:31 +0200)
+> | Création d'un dépôt | 5 essais à 3, 6, 9, 12, 15 s, échec fatal, relance 60 s après, sans mémoire | Identique, la porte n'y est pas branchée (0 occurrence) | Un dépôt réutilisé par voie, 2 min mini entre créations, 12/h (24 max), blocage partagé puis attente 5, 10, 20, 30 min | (14 October 2026, 12:41:31 +0200)
+> | Visibilité des dépôts | Publics (chunks hashés) | Identique | Selon le type (privé pour les films) | (14 October 2026, 12:41:31 +0200)
+> | Lots côté service | 200 fichiers ou 256 Mio par job, un petit lot automatique par passage | Identique | Sans objet | (14 October 2026, 12:41:31 +0200)
+> | Délais | Archive coupée à 15 min, index à 2 min | Identique | Push coupé à 30 min minimum, allongé selon le lot | (14 October 2026, 12:41:31 +0200)
+> | Apprentissage de la ligne | Aucun | Oui, état partagé entre processus | Oui | (14 October 2026, 12:41:31 +0200)
+>
+> Ce que je n'ai pas relu dans le code et que je tiens du skill et des règles : la preuve avant déchargement (identité d'objets pour les films, SHA pour Assets). (14 October 2026, 12:41:31 +0200)
+>
+> ## Ce qui est confirmé (14 October 2026, 12:41:31 +0200)
+>
+> 1. **Le service ne pose aucune variable de taille** (`ZR_PUSH_CHUNK_MB` et `ZR_SHARD_CAP_GO` absentes), donc les défauts ci-dessus s'appliquent tels quels. (14 October 2026, 12:41:31 +0200)
+> 2. **Le dépôt que le daemon exécute est en retard de 84 commits**, les deux fichiers de politique y sont absents, et le service n'est pas chargé (`launchctl list` ne le montre pas). (14 October 2026, 12:41:31 +0200)
+> 3. **Le vrai trou n'est pas la taille des pushes, c'est la création de dépôts.** Un dossier de 10 Go crée environ 5 dépôts, avec des sondes à 3 secondes d'écart sans mémoire du blocage. C'est exactement la rafale qui a déclenché le blocage secondaire le 14 octobre pour les films. (14 October 2026, 12:41:31 +0200)
+>
+> Décision à prendre : brancher la porte de création partagée sur `archive-folder.mjs`, et aligner le plafond d'un dépôt de dossier ? C'est le seul changement qui compte pour Assets. (14 October 2026, 12:41:31 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (14 October 2026, 12:41:31 +0200)
+> |---|---|---| (14 October 2026, 12:41:31 +0200)
+> | Revérifier le tableau | Oui | Lecture de `archive-folder.mjs`, `AssetsService.mjs`, `AssetsConfig.json`, `push-batch-policy.mjs`, `repo-create-policy.mjs` | (14 October 2026, 12:41:31 +0200)
+> | Trouver les erreurs | Oui, une | L'échelle 1 à 30 min n'est pas celle de la création de dépôts | (14 October 2026, 12:41:31 +0200)
+> | Rien modifier | Oui | Lectures seules | (14 October 2026, 12:41:31 +0200)
+
+## 14 October 2026, 12:41:37 +0200 : Prompt
+
+<!-- feedback-event:7851093557523e1d814143a0163b7c9f6b56b2a48cb5fa7c60a5011c543a231e (14 October 2026, 12:41:37 +0200) -->
+- Project: zenray-assets-tube-view; kind: prompt. (14 October 2026, 12:41:37 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:41:37 +0200)
+
+> <pasted_content id="ab84"> (14 October 2026, 12:41:37 +0200)
+> 1. Ranger les fichiers de rework dans zenray-edit. Je copie dans le dossier du skill zenray-edit mes trois maquettes (AssetsRework.html, TubeDetails.html, TubeProject.html) ainsi que mon plan de conception. Je range aussi la même copie dans son projet Assets, nommé zenray-edit. Rien n’est déplacé, je copie seulement, donc les originaux de tmp-zenray-assets-rework restent intacts. (14 October 2026, 12:41:37 +0200)
+>
+> 2. Le texte jaune Vogun de zenray-houdini. Je commence par chercher dans le skill zenray-houdini et dans son atelier le fichier ou le gabarit du « texte jaune motion » en Vogun. Je ne sais pas encore où il est. Je le copie ensuite dans zenray-edit en conservant sa police et son paramétrage, puis je note sa provenance. Je te redis le chemin exact avant de le copier. (14 October 2026, 12:41:37 +0200)
+>
+> 3. Tout mettre dans le cloud, proprement. Je lance l’inventaire du projet zenray-edit par zenray-assets, puis l’archive, et je ne dis « sauvegardé » qu’après la vérification cloud. Je n’exporte ni secrets, ni caches, ni dossier mixte entier. (14 October 2026, 12:41:37 +0200)
+> </pasted_content id="ab84"> (14 October 2026, 12:41:37 +0200)
+
+## 14 October 2026, 12:43:15 +0200 : Iteration
+
+<!-- feedback-event:79795e20991ae255ded5dbfe32c0482eecffd6e5e08d31b433955ae42f476a5e (14 October 2026, 12:43:15 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:43:15 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:43:15 +0200)
+
+> Je range maintenant les fichiers : copies seulement, aucun original touché. Je commence par les maquettes de rework et le gabarit Vogun jaune. (14 October 2026, 12:43:15 +0200)
+
+## 14 October 2026, 12:43:27 +0200 : Iteration
+
+<!-- feedback-event:91c315d2dc301c3a312974c238ce06bff6b013afd4538153d6b19f1de1d16d6b (14 October 2026, 12:43:27 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:43:27 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:43:27 +0200)
+
+> Je teste le rendu depuis son nouvel emplacement, trois images seulement, pour prouver que le gabarit tourne seul. (14 October 2026, 12:43:27 +0200)
+
+## 14 October 2026, 12:44:35 +0200 : Iteration
+
+<!-- feedback-event:cdd52eef97f690d7f1145f361030f3a0a9b192df9331dff0d4af890c624574fc (14 October 2026, 12:44:35 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:44:35 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:44:35 +0200)
+
+> Le contrat est vert (168 fichiers attestés). Je synchronise le skill vers ses miroirs, puis je range la copie dans l'atelier du projet Assets `zenray-edit`. (14 October 2026, 12:44:35 +0200)
+
+## 14 October 2026, 12:44:59 +0200 : Iteration
+
+<!-- feedback-event:2c0093c0953fe8ada4d1b111c9800bf2c04fbc6c2877d18886a32a00c88c01c0 (14 October 2026, 12:44:59 +0200) -->
+- Project: zenray-assets-tube-view; kind: iteration. (14 October 2026, 12:44:59 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d71651de-2d57-45d0-b20d-830dd146d2ac.jsonl. (14 October 2026, 12:44:59 +0200)
+
+> Les étapes 1 et 2 sont faites et vérifiées. **L'étape 3, l'archive cloud, n'est pas faite**, et je m'arrête là pour une raison précise. (14 October 2026, 12:44:59 +0200)
+>
+> ## Fait : copies uniquement, aucun original touché (14 October 2026, 12:44:59 +0200)
+>
+> **Les maquettes du rework**, dans le skill `zenray-edit` : (14 October 2026, 12:44:59 +0200)
+> - `templates/zenray-assets-mockups/rework-12-october-2026/` : `AssetsRework.html`, `TubeDetails.html`, `TubeProject.html`. (14 October 2026, 12:44:59 +0200)
+> - Son `README.md` note tes choix mot pour mot, les règles de la vue Tube (Inter seulement, titres en Inter Bold, noms simples) et où est le code de production (commits `ba9a6257`, `13395ecd`, `adca0e68`). (14 October 2026, 12:44:59 +0200)
+>
+> **Le texte jaune Vogun**, trouvé dans `zenray-houdini` : (14 October 2026, 12:44:59 +0200)
+> - C'est la variante `vogun-cyber-pingpong-yellow` (jaune pur `#FFFF00`) de Vegetation Collection 01. (14 October 2026, 12:44:59 +0200)
+> - Elle est rangée dans `templates/vogun-yellow-title/` avec : (14 October 2026, 12:44:59 +0200)
+>   - son moteur `Animation.html` et ses paramètres (`Animation.yellow.json`) ; (14 October 2026, 12:44:59 +0200)
+>   - la police d'origine, non modifiée ; (14 October 2026, 12:44:59 +0200)
+>   - une image de référence 4K ; (14 October 2026, 12:44:59 +0200)
+>   - les règles `VogunTitles.md` ; (14 October 2026, 12:44:59 +0200)
+>   - un `README.md` qui donne la provenance et le tableau des paramètres. (14 October 2026, 12:44:59 +0200)
+> - J'ai écrit un rendu paramétrique, `RenderTitle.cjs`. L'original avait son dossier écrit en dur. Le nouveau prend en arguments le dossier, la variante, la sortie et les images voulues. (14 October 2026, 12:44:59 +0200)
+> - Preuve : l'image 45 rendue depuis le nouvel emplacement a le même canal alpha que la référence archivée en 4K. 5 pixels transparents ont une couleur cachée différente, rien de visible. (14 October 2026, 12:44:59 +0200)
+>
+> **Le projet Assets `zenray-edit`** : la même copie est dans `~/.claude/tmp/tmp-zenray-edit/Rework12October2026/` (15 fichiers, 616 Ko), avec un `Provenance.md` qui rappelle que le skill fait foi. (14 October 2026, 12:44:59 +0200)
+>
+> **Contrôles :** `SKILL.md` a deux lignes de routage de plus (13 827 octets, limite 16 000). Le manifeste est ré-enregistré et `CheckContract.py` est vert sur 168 fichiers. Le skill est synchronisé vers les miroirs Codex et Memory. (14 October 2026, 12:44:59 +0200)
+>
+> ## Pas fait : l'archive cloud (14 October 2026, 12:44:59 +0200)
+>
+> Le service Assets n'est pas chargé depuis le redémarrage du Mac (`launchctl` ne le montre pas, le pont 3100 ne répond pas), donc je ne peux ni inventorier ni archiver. Je ne le relance pas sans ton accord, parce que le dépôt qu'il exécute a 84 commits de retard. Il tournerait donc avec l'ancienne politique GitHub, et la porte de création de dépôts n'est toujours pas branchée sur l'archive de dossier. Ton projet pèse 618 Mo et créerait donc plusieurs dépôts d'un coup. (14 October 2026, 12:44:59 +0200)
+>
+> Trois décisions à prendre, dans l'ordre : (14 October 2026, 12:44:59 +0200)
+> 1. **Mettre le dépôt principal à jour** sur `origin/main`. Il porte 3 commits locaux non poussés, donc je veux ton accord. (14 October 2026, 12:44:59 +0200)
+> 2. **Brancher la porte de création de dépôts** sur `archive-folder.mjs`. (14 October 2026, 12:44:59 +0200)
+> 3. **Recharger le service**, puis lancer l'inventaire et l'archive de `zenray-edit`, en comptant « sauvegardé » seulement après la vérification cloud. (14 October 2026, 12:44:59 +0200)
+>
+> Je te signale aussi que `CLAUDE.md` global pèse maintenant 65 535 octets, soit 1 octet sous la limite de 65 536 pour les sous-agents. Un seul ajout de plus le fera tronquer en silence : ce n'est pas mon changement, mais il faudra alléger une section. (14 October 2026, 12:44:59 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (14 October 2026, 12:44:59 +0200)
+> |---|---|---| (14 October 2026, 12:44:59 +0200)
+> | Ranger les fichiers de rework dans `zenray-edit` et son projet Assets | Oui | 3 maquettes + README dans le skill et dans `tmp-zenray-edit`, contrat vert | (14 October 2026, 12:44:59 +0200)
+> | Consigner le texte jaune Vogun de `zenray-houdini` | Oui | Gabarit paramétrique rendu depuis son nouvel emplacement, alpha identique | (14 October 2026, 12:44:59 +0200)
+> | Tout mettre dans le cloud proprement | Non | Service non chargé ; en attente de tes trois décisions | (14 October 2026, 12:44:59 +0200)
+>
+> Reformulation plus courte de ta demande : « Range mes maquettes de rework et le titre jaune Vogun dans zenray-edit et son projet Assets, puis archive le projet dans le cloud. » (14 October 2026, 12:44:59 +0200)
