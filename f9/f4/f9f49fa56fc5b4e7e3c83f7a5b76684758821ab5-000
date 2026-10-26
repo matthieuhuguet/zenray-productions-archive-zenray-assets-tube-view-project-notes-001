@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-tube-view",
- "scannedAt": "2026-10-18T22:35:35.660Z",
+ "scannedAt": "2026-10-26T12:58:44.404Z",
  "conversations": [
   {
    "projectId": "zenray-assets-tube-view",
@@ -16,7 +16,7 @@
    "sessionId": "d71651de-2d57-45d0-b20d-830dd146d2ac",
    "title": "ZenRay Assets UI rework in zenray edit",
    "updatedAt": "2026-10-14T10:45:04.320Z",
-   "bytes": 21342,
+   "bytes": 21343,
    "boundProject": "zenray-assets-tube-view"
   },
   {
@@ -32,24 +32,72 @@
    "sessionId": "5bd15db6-f2d9-4010-bcb3-0d609a42bc5e",
    "title": "performance assets and drive",
    "updatedAt": "2026-10-15T07:02:22.911Z",
-   "bytes": 34516,
+   "bytes": 34517,
    "boundProject": "zenray-progress"
   },
   {
    "projectId": "zenray-assets-tube-view",
-   "lines": 2,
-   "work": 1,
+   "lines": 3,
+   "work": 0,
    "prompts": 0,
-   "first": "2026-10-12T20:32:30.786Z",
-   "last": "2026-10-12T20:32:30.788Z",
+   "first": "2026-10-19T12:08:28.455Z",
+   "last": "2026-10-20T01:11:09.480Z",
    "strength": "weak",
-   "conversationId": "codex:01a1301b-f199-7773-863c-b2a78d50b909",
-   "provider": "codex",
-   "sessionId": "01a1301b-f199-7773-863c-b2a78d50b909",
-   "title": "Conversation codex 01a1301b",
-   "updatedAt": "2026-10-18T22:34:26.136Z",
-   "bytes": 41044233,
-   "boundProject": "zenray-japanese"
+   "conversationId": "claude:beb9938e-4434-4925-8d13-137bb7940fc0",
+   "provider": "claude",
+   "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
+   "title": "zenray uv",
+   "updatedAt": "2026-10-23T13:08:52.408Z",
+   "bytes": 40374,
+   "boundProject": "louisiana-bayou"
+  },
+  {
+   "projectId": "zenray-assets-tube-view",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-19T12:08:28.455Z",
+   "last": "2026-10-20T01:11:09.480Z",
+   "strength": "weak",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "UV Methodology (original /mhzenray)",
+   "updatedAt": "2026-10-20T19:18:11.914Z",
+   "bytes": 41538,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-assets-tube-view",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T11:14:43.255Z",
+   "last": "2026-10-23T11:14:46.836Z",
+   "strength": "weak",
+   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
+   "provider": "claude",
+   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
+   "title": "zenray knowledge",
+   "updatedAt": "2026-10-25T10:57:44.128Z",
+   "bytes": 38273,
+   "boundProject": "zenray-knowledge-23-october-2026"
+  },
+  {
+   "projectId": "zenray-assets-tube-view",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T15:27:34.646Z",
+   "last": "2026-10-23T15:27:34.646Z",
+   "strength": "weak",
+   "conversationId": "claude:dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "provider": "claude",
+   "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "title": "zenray plan calendar",
+   "updatedAt": "2026-10-23T17:39:34.036Z",
+   "bytes": 38450,
+   "boundProject": null
   },
   {
    "projectId": "zenray-assets-tube-view",
@@ -64,7 +112,7 @@
    "sessionId": "fc4febb5-8a38-4c74-8919-9a72175d0d7e",
    "title": "DRIVE evolution (fork)",
    "updatedAt": "2026-10-14T19:11:34.636Z",
-   "bytes": 21050,
+   "bytes": 21051,
    "boundProject": null
   },
   {
@@ -80,7 +128,7 @@
    "sessionId": "ff2c4a10-5024-4fbb-917a-0b2ac5886f52",
    "title": "Design Lecteur Video",
    "updatedAt": "2026-10-14T13:45:00.698Z",
-   "bytes": 21122,
+   "bytes": 21123,
    "boundProject": null
   },
   {
